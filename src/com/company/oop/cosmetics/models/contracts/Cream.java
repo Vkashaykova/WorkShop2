@@ -1,0 +1,17 @@
+package com.company.oop.cosmetics.models.contracts;
+
+import com.company.oop.cosmetics.models.enums.ScentType;
+
+public interface Cream extends Product {
+
+    String getName();
+
+    String getBrandName();
+
+    ScentType getScent();
+
+    String print();
+
+
+
+}
